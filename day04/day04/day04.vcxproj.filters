@@ -57,13 +57,19 @@
     <ClCompile Include="globalvar.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="add.c">
+    <ClCompile Include="add_func.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="addmain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="findmax.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="myabs.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stack_func.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

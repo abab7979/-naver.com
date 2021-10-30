@@ -3,7 +3,7 @@
 void count() {
 
 	int x = 0;         //지역변수, 블럭을 벗어나면 소멸
-	static int y = 0; //정적(고정)변수 (static 키워드 사용)
+	static int y = 0; //정적(고정)변수 (static 키워드 사용) 
 
 	x += 1;
 	y += 1;
@@ -13,7 +13,7 @@ void count() {
 	
 
 int main(){
-	count();
+	count();//
 	count();
 	return 0;
 

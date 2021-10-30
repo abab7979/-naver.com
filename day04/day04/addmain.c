@@ -7,8 +7,9 @@ int main() {
 	a = 1;
 	b = 2;
 
-	result = add(a, b);
-	printf("%d\n", result);
+	result = add_func(a, b);
+	printf("гу╟Х:%d\n", result);
+	
 	return 0;
 
 }
