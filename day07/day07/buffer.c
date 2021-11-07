@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main() {
 
@@ -15,4 +15,4 @@ int main() {
 	printf("¿Ã∏ß :%s\n", name);
 
 	return 0;
-}
+}*/

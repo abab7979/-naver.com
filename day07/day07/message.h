@@ -1,4 +1,4 @@
-//message.h
+/*message.h
 
 #if defined EN
 #define HELLO_MESSAGE "Hello"
@@ -10,3 +10,4 @@
 #define HELLO_MESSAGE "æ»≥Á«œººø‰"
 
 #endif
+*/

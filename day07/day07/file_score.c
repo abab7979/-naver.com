@@ -3,9 +3,9 @@
 int main() {
 
 	FILE* fp;
-	char name[10];
-	int kor, eng;
-	double avg;
+	char name[20];
+	int kor, eng, math;
+	//double avg;
 
 	printf("이름 입력:");
 	fscanf_s(stdin, "%s",name,sizeof(name)); 
@@ -16,6 +16,8 @@ int main() {
 	fscanf_s(stdin, "%d", &kor);
 	printf("영어 점수 입력:");
 	fscanf_s(stdin, "%d", &eng);
+	printf("수학 점수 입력:");
+	fscanf_s(stdin, "%d", &math);
 
 	fopen_s(&fp, "score.txt", "w");
 	if (fp == NULL) {
@@ -23,9 +25,9 @@ int main() {
 		return -1;
 	}
 
-	avg = ((double)kor + (double)eng) / 2;
-	fprintf(fp, "%s %d %d %3.1lf",name,kor,eng,avg);  //파일에 쓰기
-	fprintf(stdout, "%s %d %d %3.1lf", name, kor, eng, avg);  //모니터에 쓰기
+	//avg = ((double)kor + (double)eng) / 2;
+	fprintf(fp, "%s %d %d %d",name,kor,eng,math);  //파일에 쓰기
+	fprintf(stdout, "%s %d %d %d", name, kor, eng, math);  //모니터에 쓰기
 	fclose(fp);
 
 	return 0;
